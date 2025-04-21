@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('costume3d_models', function (Blueprint $table) {
-            $table->id('costume3dModelID');
-            $table->string('costumeName');
-            $table->text('description')->nullable();
-            $table->string('category')->nullable();
-            $table->string('file_path');
-            $table->string('thumbnail')->nullable();
+            $table->id('3dmodelId');
+            $table ->foreignId('costumeId')
+            ->constrained('costume_tables','costumeId')
+            ->cascadeOnUpdate()
+            ->cascadeOnDelete();
+            $table->string('filePath');
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('costume3d_models');
+        Schema::dropIfExists('3dmodelId');
     }
 };

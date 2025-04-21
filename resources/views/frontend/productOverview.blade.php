@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>Product Overview</title>
     @vite('resources/css/app.css') 
     <link href="../path/to/src/pagedone.css" rel="stylesheet"/>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -17,8 +17,7 @@
 
     {{-- MAIN CONTENT --}}
     <main>
-        <x-hero />
-        <x-product-list  :costumes="$costumes" />
+        <x-product-overview :overview="$overview" />
         
     </main>
     <x-footer/>

@@ -340,7 +340,7 @@ class="relative"
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">Your Company</span>
-        <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="">
+        <img class="h-8 w-auto" src="https://scontent.fdvo1-2.fna.fbcdn.net/v/t39.30808-6/305464939_508958237897691_6681873665478123931_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHqIfc6H0BZcZ2tBPRLqy61Q8-iOAWA2JhDz6I4BYDYmADiZp12PRhOuKjGy6Qrp9HT87dxwsI90Ak36WCI6vbo&_nc_ohc=sLCRFEKhbQsQ7kNvwHV68nD&_nc_oc=AdmICFuIuV31Dd1xs6WC-GzTCpC3HlP7hPe5e9pTlpTaAHUSHX3eZsrTqHfdxLVN8UQ&_nc_zt=23&_nc_ht=scontent.fdvo1-2.fna&_nc_gid=VxBkc8HEqcytBpdNxzIJ-Q&oh=00_AfGlUFZBB5lSRc87WBVol9gq-7-6YzsAbV7A3pOVJ1r_Eg&oe=68062D1C" alt="">
       </a>
     </div>
 
@@ -413,13 +413,13 @@ class="relative"
       </div>
 
       <!-- Other desktop links -->
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">Company</a>
+      <a href="#" class="text-sm/6 font-semibold text-gray-900">placeholder</a>
+      <a href="#" class="text-sm/6 font-semibold text-gray-900">placeholder</a>
+      <a href="#" class="text-sm/6 font-semibold text-gray-900">placeholder</a>
     </div>
 
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">→</span></a>
+      <a href="#" class="text-sm/6 font-semibold text-gray-900">placeholder <span aria-hidden="true">→</span></a>
     </div>
   </nav>
 </header>

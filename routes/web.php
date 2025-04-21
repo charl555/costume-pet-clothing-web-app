@@ -12,3 +12,5 @@ use App\Http\Controllers\ProductController;
 
 
 Route::get('/', [ProductController::class, 'homepage']);
+
+Route::get('/productoverview/{id}', [ProductController::class, 'productOverview'])->name('product.overview');

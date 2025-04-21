@@ -40,20 +40,14 @@ class Costume3dModelResource extends Resource
         ->schema([
         Section::make() 
             ->schema([
-                TextInput::make('costumeName'),
-                Textarea::make('description'),
-                Select::make('category')->options([
-                    'Fantasy'=> 'Fantasy',
-                    'UnitedNations'=> 'United Nations',
-                    'Cultural'=> 'Cultural',
-                ]),
                 FileUpload::make('file_path')
                 ->label('3D Model File (.obj)')
                 ->disk('public')
                 ->directory('costume-models')
+                ->preserveFilenames()
                 ->maxSize(122880)
                 ->required(),
-                FileUpload::make('thumbnail'),
+
             ]),
 
         ]);
@@ -63,10 +57,7 @@ class Costume3dModelResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('costumeName')->label('Costume Name'),
-                TextColumn::make('description')->label('Description'),
-                TextColumn::make('category')->label('Category'),
-                ImageColumn::make('thumbnail')->label('Thumbnail'),
+
             ])
             ->filters([
                 //
@@ -90,7 +81,6 @@ class Costume3dModelResource extends Resource
                 TextEntry::make('costumeName')->label('Costume Name'),
                 TextEntry::make('descrption')->label('Description'),
                 TextEntry::make('category')->label('Category'),
-                ImageEntry::make('thumbnail'),
         ]);
     }
 

@@ -3,8 +3,8 @@
         <nav class="grid grid-flow-col gap-4">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <a class="link link-hover">Facebook page</a>
+          <a class="link link-hover">Tiktok Page</a>
         </nav>
         <nav>
           <div class="grid grid-flow-col gap-4">
@@ -44,7 +44,7 @@
           </div>
         </nav>
         <aside>
-          <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+          <p>---</p>
         </aside>
       </footer>
 </div>
